@@ -1,0 +1,111 @@
+body{
+    line-height: 1.6em;
+	margin-top: 0px;
+    background-position: cover no-repeat;
+    background-image: url(cover3.png);
+    -webkit-background-composite: cover;
+    -moz-background-composite: cover;
+    -o-background-composite: cover;
+}
+
+.container-fluid{
+    background: #FFECE0;
+    background-size: cover;
+    background-blend-mode: color #FFECE0;
+    font-family: Edwardian Script ITC;
+    font-size: 25px;
+}
+
+.navbar-brand{
+    font-size: 25px;
+}
+
+.navbar {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.dropdown-item{
+    font-size: 20px;
+}
+
+.dropdown-item:hover{
+    background: #FFECE0;
+    font-size: 25px;
+}
+h1
+{
+    font-family: Edwardian Script ITC;
+    font-size: 50px;
+}
+
+
+h2{
+    font-family: Edwardian Script ITC;
+    font-size: 45px;
+}
+
+h3
+{
+    font-family: Edwardian Script ITC;
+    font-size: 45px;
+}
+
+.box1{
+    height: 490px;
+    width: 600px;
+    border-radius: 20px;
+    float: right;
+    display: block;
+    background-color:#FFECE0;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 40px;
+
+}
+.box1 .text{
+    opacity: 1;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.btn-primary{
+   background-color: #FFEAD2;
+   border-color: black;
+}
+
+.btn-primary:hover{
+   background-color: black;
+   border-color: #FFEAD2;
+   border-width: 4px;
+   
+}
+
+.btn-xl{
+   padding-top: 1rem 2rem;
+   margin-top: 20px;
+   margin-left: 100px;
+   height: 60px;
+}
+
+.Roller img{
+    height: 500px;
+    width: 40%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#main-footer{
+	color: black;
+	text-align: center;
+	padding: 20px;
+	margin: 0px;
+}

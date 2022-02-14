@@ -1,0 +1,451 @@
+body{
+    line-height: 1.6em;
+	margin-top: 0px;
+    background-position: cover no-repeat;
+    background-image: url(cover3.png);
+    -webkit-background-composite: cover;
+    -moz-background-composite: cover;
+    -o-background-composite: cover;
+}
+
+.container-fluid{
+    background: #FFECE0;
+    background-size: cover;
+    background-blend-mode: color #FFECE0;
+    font-family: Edwardian Script ITC;
+    font-size: 25px;
+}
+
+.navbar-brand{
+    font-size: 25px;
+}
+
+.navbar {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.dropdown-item{
+    font-size: 20px;
+}
+
+.dropdown-item:hover{
+    background: #FFECE0;
+    font-size: 25px;
+}
+
+
+
+h1{
+    font-family: Edwardian Script ITC;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+#showcase h1{
+    color: black;
+	font-size: 30px;
+	line-height: 1.6em;
+	padding-top: 30px;
+    font-family: Edwardian Script ITC;
+}
+
+.text{
+    opacity: 1;
+    text-align: bottom center;
+}
+
+#main{
+	float: left;
+	width: 100%;
+	padding: 50px;
+    margin-top: 25px;
+	box-sizing: border-box;
+    background-color: white;
+    
+}
+
+#main-header{
+    background-image: url(cover3.png);
+}
+
+#showcase{
+	background-color: #FFE5D3;
+	background-position: center right;
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#sidebar{
+	float: none;
+	width: 30%;
+	color: black;
+    font-family: Edwardian Script ITC;
+    font-size: 30px;
+    background-color: #FFE5D3;
+}
+
+#main-footer{
+	color: black;
+	text-align: center;
+	padding: 20px;
+	margin: 0px;
+}
+
+	#sidebar{
+		width: 28%;
+		float: none;
+        text-align: center;
+    }
+
+    .box1{
+        height: 225px;
+        width: 150px;
+        float: left;
+        display: block;
+        margin-top: 50px;
+        margin-left: 20px;    
+        background-image: url(doubleedgeazor3piecewithlonghandle.jpg);
+        background-size: 65%;
+        background-repeat: no-repeat;  
+        transition: transform 1s;  
+            
+           
+    }
+    
+    .box1 .text
+    {
+        position: absolute;
+        top: 135px;
+        opacity: 0;
+    }
+    
+    .box1:hover{    
+        
+        text-align: center;
+        transform: translateY(0) scale(1.3)
+    }
+    
+    .box1:hover .text
+    {
+        opacity: 1;
+    }
+    
+    .box2{
+        height: 150px;
+        width: 150px;
+        float: left;
+        display: block;
+        margin-top: 30px;
+        margin-left: 20px;
+        background-image: url(spurebeginningsshavecreamelarge.jpg);
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position: 47px;
+        transition: transform 1s;
+    
+    }
+    .box2 .text
+    {
+        position: absolute;
+        top: 130px;
+        right: -45px;
+        opacity: 0;
+    }
+    .box2:hover{
+        
+        text-align: center;
+        transform: translateY(0) scale(1.3)
+    }
+    .box2:hover .text
+    {
+        opacity: 1;
+    }
+
+.box3{
+    height: 150px;
+    width: 150px;
+    float: left;
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-image: url(isivuno_faithful_to_nature_faithful_to_nature_shea_butter_500ml_sku117304.jpg);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: 47px
+}
+
+.box3:hover{
+    opacity: 1;
+    text-align: center;
+    transform: translateY(0) scale(1.3)
+}
+
+.box4{
+    height: 150px;
+    width: 150px;
+    float: left;
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-image: url(l_abeille_ionactive_silicone_cleansing_brush_sku64095.jpg);
+    background-size: 27%;
+    background-repeat: no-repeat;
+    background-position: 47px
+}
+
+.box4:hover{
+    opacity: 1;
+    text-align: center;
+    transform: translateY(0) scale(1.3)
+}
+
+.box5{
+    height: 150px;
+    width: 150px;
+    float: left;
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-image: url(skin_creamery_skin_creamery_everyday_cream_100ml_sku6153v3_1.jpg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 47px
+}
+
+.box5:hover{
+    opacity: 1;
+    text-align: center;
+    transform: translateY(0) scale(1.3)
+}
+
+.box6{
+    height: 150px;
+    width: 150px;
+    float: left;
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;;
+    background-image: url(sku1172-pure-beginnings-shave-creame-large.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 47px
+}
+
+.box6:hover{
+    opacity: 1;
+    text-align: center;
+    transform: translateY(0) scale(1.3)
+}
+
+.box7{
+    height: 150px;
+    width: 150px;
+    float: left;
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-image: url(skin_creamery_skin_creamery_everyday_cream_100ml_sku6153v3_1.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 47px
+}
+
+.box7:hover{
+    opacity: 1;
+    text-align: center;
+    transform: translateY(0) scale(1.3)
+}
+
+.box8{
+    height: 150px;
+    width: 150px;
+    float: left;
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-image: url(labeille_labeille_vegan_body_brush_sku91423.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 47px
+}
+
+.box8:hover{
+    opacity: 1;
+    text-align: center;
+    transform: translateY(0) scale(1.3)
+}
+
+.box9{
+    height: 150px;
+    width: 150px;
+    float: left;
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-image: url(nature_direct_faithful_to_nature_faithful_to_nature_-_double_edge_razor_3_piece_with_long_handle_sku71214.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 47px
+}
+
+.box9:hover{
+    opacity: 1;
+    text-align: center;
+    transform: translateY(0) scale(1.3)
+}
+
+.box10{
+    height: 150px;
+    width: 150px;
+    float: left;
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-image: url(nature_direct_faithful_to_nature_faithful_to_nature_-_double_edge_razor_3_piece_with_long_handle_sku71214.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 47px
+}
+
+.box10:hover{
+    opacity: 1;
+    text-align: center;
+    transform: translateY(0) scale(1.3)
+}
+
+.box11{
+    height: 150px;
+    width: 150px;
+    float: left;
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-image: url(nature_direct_faithful_to_nature_faithful_to_nature_-_double_edge_razor_3_piece_with_long_handle_sku71214.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 47px
+}
+
+.box11:hover{
+    opacity: 1;
+    text-align: center;
+    transform: translateY(0) scale(1.2)
+
+}
+
+.box12{
+    height: 150px;
+    width: 150px;
+    float: left;
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-image: url(nature_direct_faithful_to_nature_faithful_to_nature_-_double_edge_razor_3_piece_with_long_handle_sku71214.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 47px
+}
+
+.box12:hover{
+    opacity: 1;
+    text-align: center;
+    transform: translateY(0) scale(1.3)
+}
+
+.box13{
+    height: 150px;
+    width: 150px;
+    float: left;
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-image: url(nature_direct_faithful_to_nature_faithful_to_nature_-_double_edge_razor_3_piece_with_long_handle_sku71214.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 47px
+}
+
+.box13:hover{
+    opacity: 1;
+    text-align: center;
+    transform: translateY(0) scale(1.3)
+}
+
+.box14{
+    height: 150px;
+    width: 150px;
+    float: left;
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-image: url(nature_direct_faithful_to_nature_faithful_to_nature_-_double_edge_razor_3_piece_with_long_handle_sku71214.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 47px
+}
+
+.box14:hover{
+    opacity: 1;
+    text-align: center;
+    transform: translateY(0) scale(1.3)
+}
+
+.box15{
+    height: 150px;
+    width: 150px;
+    float: left;
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-image: url(nature_direct_faithful_to_nature_faithful_to_nature_-_double_edge_razor_3_piece_with_long_handle_sku71214.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 47px
+}
+
+.box15:hover{
+    opacity: 1;
+    text-align: center;
+    transform: translateY(0) scale(1.2)
+
+}
+
+.box16{
+    height: 150px;
+    width: 150px;
+    float: left;
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-image: url(nature_direct_faithful_to_nature_faithful_to_nature_-_double_edge_razor_3_piece_with_long_handle_sku71214.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 47px
+}
+
+.box16:hover{
+    opacity: 1;
+    text-align: center;
+    transform: translateY(0) scale(1.3)
+}
+
+.box17{
+    height: 150px;
+    width: 150px;
+    float: left;
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-image: url(nature_direct_faithful_to_nature_faithful_to_nature_-_double_edge_razor_3_piece_with_long_handle_sku71214.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 47px
+}
+
+.box17:hover{
+    opacity: 1;
+    text-align: center;
+    transform: translateY(0) scale(1.3);
+}
